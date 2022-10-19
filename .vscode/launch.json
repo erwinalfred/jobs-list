@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+  "configurations": [
+    {
+      "command": "yarn dev",
+      "name": "Start App",
+      "request": "launch",
+      "type": "node-terminal"
+    }
+  ]
+}
